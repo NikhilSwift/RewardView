@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3882C6C26DA8AA100311230 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3882C6B26DA8AA100311230 /* Extensions.swift */; };
+		E390F27D26DB8F25001B6DD1 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E390F27C26DB8F25001B6DD1 /* ProgressView.swift */; };
+		E390F28326DB912F001B6DD1 /* ProgressViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E390F28226DB912F001B6DD1 /* ProgressViewTableViewCell.swift */; };
+		E390F29526DBAF48001B6DD1 /* ProgressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E390F29426DBAF48001B6DD1 /* ProgressModel.swift */; };
+		E390F29A26DBB022001B6DD1 /* RegisterFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E390F29926DBB022001B6DD1 /* RegisterFormViewModel.swift */; };
 		E3925B1B26D95A260073B041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3925B1A26D95A260073B041 /* AppDelegate.swift */; };
 		E3925B1D26D95A260073B041 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3925B1C26D95A260073B041 /* SceneDelegate.swift */; };
 		E3925B1F26D95A260073B041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3925B1E26D95A260073B041 /* ViewController.swift */; };
@@ -15,6 +20,8 @@
 		E3925B2726D95A2C0073B041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3925B2526D95A2C0073B041 /* LaunchScreen.storyboard */; };
 		E3925B3226D95A2C0073B041 /* RewardFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3925B3126D95A2C0073B041 /* RewardFormTests.swift */; };
 		E3925B3D26D95A2C0073B041 /* RewardFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3925B3C26D95A2C0073B041 /* RewardFormUITests.swift */; };
+		E3A23D9326E4D00D007C7DF9 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A23D9226E4D00D007C7DF9 /* TextFieldExtension.swift */; };
+		E3F107AC26D95C7A00485CDE /* RewardFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F107AB26D95C7A00485CDE /* RewardFormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3882C6B26DA8AA100311230 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E390F27C26DB8F25001B6DD1 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		E390F28226DB912F001B6DD1 /* ProgressViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewTableViewCell.swift; sourceTree = "<group>"; };
+		E390F29426DBAF48001B6DD1 /* ProgressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressModel.swift; sourceTree = "<group>"; };
+		E390F29926DBB022001B6DD1 /* RegisterFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormViewModel.swift; sourceTree = "<group>"; };
 		E3925B1726D95A260073B041 /* RewardForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3925B1A26D95A260073B041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3925B1C26D95A260073B041 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		E3925B3826D95A2C0073B041 /* RewardFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RewardFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3925B3C26D95A2C0073B041 /* RewardFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardFormUITests.swift; sourceTree = "<group>"; };
 		E3925B3E26D95A2C0073B041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3A23D9226E4D00D007C7DF9 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
+		E3F107AB26D95C7A00485CDE /* RewardFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardFormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +90,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3882C6A26DA8A9200311230 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3882C6B26DA8AA100311230 /* Extensions.swift */,
+				E3A23D9226E4D00D007C7DF9 /* TextFieldExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E390F28126DB9111001B6DD1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E390F28226DB912F001B6DD1 /* ProgressViewTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E390F29226DBAECF001B6DD1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E390F29426DBAF48001B6DD1 /* ProgressModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E390F29326DBAED5001B6DD1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E390F29926DBB022001B6DD1 /* RegisterFormViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E391F1E826DD530F00FD9AC2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3925B1E26D95A260073B041 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E391F1E926DD531F00FD9AC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3F107AB26D95C7A00485CDE /* RewardFormView.swift */,
+				E390F27C26DB8F25001B6DD1 /* ProgressView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E3925B0E26D95A250073B041 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +163,12 @@
 		E3925B1926D95A260073B041 /* RewardForm */ = {
 			isa = PBXGroup;
 			children = (
+				E390F29326DBAED5001B6DD1 /* ViewModel */,
+				E390F29226DBAECF001B6DD1 /* Model */,
+				E3882C6A26DA8A9200311230 /* Extensions */,
+				E3F107A626D95B5C00485CDE /* View */,
 				E3925B1A26D95A260073B041 /* AppDelegate.swift */,
 				E3925B1C26D95A260073B041 /* SceneDelegate.swift */,
-				E3925B1E26D95A260073B041 /* ViewController.swift */,
 				E3925B2026D95A260073B041 /* Main.storyboard */,
 				E3925B2326D95A2C0073B041 /* Assets.xcassets */,
 				E3925B2526D95A2C0073B041 /* LaunchScreen.storyboard */,
@@ -126,6 +193,16 @@
 				E3925B3E26D95A2C0073B041 /* Info.plist */,
 			);
 			path = RewardFormUITests;
+			sourceTree = "<group>";
+		};
+		E3F107A626D95B5C00485CDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E391F1E926DD531F00FD9AC2 /* Views */,
+				E391F1E826DD530F00FD9AC2 /* ViewController */,
+				E390F28126DB9111001B6DD1 /* Cells */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +335,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3882C6C26DA8AA100311230 /* Extensions.swift in Sources */,
 				E3925B1F26D95A260073B041 /* ViewController.swift in Sources */,
+				E390F29A26DBB022001B6DD1 /* RegisterFormViewModel.swift in Sources */,
+				E3A23D9326E4D00D007C7DF9 /* TextFieldExtension.swift in Sources */,
 				E3925B1B26D95A260073B041 /* AppDelegate.swift in Sources */,
 				E3925B1D26D95A260073B041 /* SceneDelegate.swift in Sources */,
+				E390F29526DBAF48001B6DD1 /* ProgressModel.swift in Sources */,
+				E3F107AC26D95C7A00485CDE /* RewardFormView.swift in Sources */,
+				E390F27D26DB8F25001B6DD1 /* ProgressView.swift in Sources */,
+				E390F28326DB912F001B6DD1 /* ProgressViewTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM5444TN66;
 				INFOPLIST_FILE = RewardForm/Info.plist;
@@ -445,6 +530,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikhil.TaskManager.RewardForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TM5444TN66;
 				INFOPLIST_FILE = RewardForm/Info.plist;
@@ -464,6 +551,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nikhil.TaskManager.RewardForm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

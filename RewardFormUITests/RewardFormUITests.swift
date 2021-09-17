@@ -22,21 +22,29 @@ class RewardFormUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // UI tests must launch the application that they test.
+    func testEmailLogin(){
+        
         let app = XCUIApplication()
-        app.launch()
-
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        let emailIdTextfield = app.textFields["   Enter your Email Id"]
+        XCTAssertTrue(emailIdTextfield.exists)
+        emailIdTextfield.tap()
+        emailIdTextfield.typeText("nikhildesai101@gmail.com")
+        app/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.buttons["arrow right"]/*[[".textFields[\"   Enter your Email Id\"].buttons[\"arrow right\"]",".buttons[\"arrow right\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+                      
     }
 
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+    func testPasswordLogin(){
+        
+        let app = XCUIApplication()
+        let passwordTextfield = app.textFields["   Set your Password"]
+        XCTAssertTrue(passwordTextfield.exists)
+        passwordTextfield.tap()
+        passwordTextfield.typeText("Testdata12")
+        app/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.tap()
+        app/*@START_MENU_TOKEN@*/.buttons["arrow right"]/*[[".textFields[\"   Set your Password\"].buttons[\"arrow right\"]",".buttons[\"arrow right\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+                
     }
+   
+    
 }
